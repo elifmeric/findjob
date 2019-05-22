@@ -5,6 +5,7 @@ import JobList from './views/JobList.vue'
 Vue.use(Router)
 
 export default new Router({
+  mode: 'history', // in order to get rid of the #
   routes: [
     {
       path: '/joblist',
