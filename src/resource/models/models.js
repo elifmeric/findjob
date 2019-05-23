@@ -1,6 +1,5 @@
 
-
-export default class JobListItem{
+export class JobListItem{
     construct(jobId,positionName,companyName,durationDay, durationDayText,imageUrl,distance,latitude,longitude,cityName, townName){
         this.jobId=jobId;
         this.positionName=positionName;
@@ -72,11 +71,9 @@ export class JobDetail{
     }
 
     
-    }
+}
 
-
-
- export class GetJobDetailResponse{
+export class GetJobDetailResponse{
    
     construct(  version,statusCode,result){
             this.version=version;

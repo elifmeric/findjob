@@ -1,29 +1,29 @@
 import {GetListResponse } from "./models/models";
 
 
-const json = {
+const getListResponseJson = {
     "version":"1.0",
     "statusCode":200,
     "result":{
- "items":[ {
+    "items":[ {
              "jobId":"C71CD1954BA149BCAF42B25F775EA4FB",
              "positionName":"Test Engineer",
              "companyName":"Compact Company",
-             "durationDay":0,
+             "durationDay":6,
              "durationDayText":"Newly arrived!",
-             "imageUrl":"https://dummyimage.com/50x50/0e5870/fff",
+             "imageUrl":"https://dummyimage.com/100x100/0e5870/fff",
              "distance":"8,53 km yakınında",
              "latitude":41.050968170166023,
              "longitude":29.062856674194339,
              "cityName":"İstanbul",
-             "townName":"Çengelköy Mahallesi"
+             "townName":"Go Mahallesi"
  },{
     "jobId":"C71CD1954BA149BCAF42B25F775EA4BJ",
     "positionName":"Call Center",
     "companyName":"Meric saksı boyamacılık a.ş.",
-    "durationDay":22,
+    "durationDay":17,
     "durationDayText":"",
-    "imageUrl":"https://dummyimage.com/50x50/0e5881/fff",
+    "imageUrl":"https://dummyimage.com/100x100/0e5881/fff",
     "distance":"2,53 km yakınında",
     "latitude":41.050968170166023,
     "longitude":29.062856674194339,
@@ -33,23 +33,23 @@ const json = {
     "jobId":"C71CD1954BA149BCAF42B25F775EA4GS",
     "positionName":"Cookie Chef",
     "companyName":"Kukis Patiserrie",
-    "durationDay":22,
+    "durationDay":2,
     "durationDayText":"",
-    "imageUrl":"https://dummyimage.com/50x50/0e5890/fff",
-    "distance":"8,53 km yakınında",
+    "imageUrl":"https://dummyimage.com/100x100/0e5890/fff",
+    "distance":"3,53 km yakınında",
     "latitude":41.050968170166023,
     "longitude":29.062856674194339,
     "cityName":"Bartın",
-    "townName":"Çengelköy Mahallesi"
+    "townName":"Kedi Mahallesi"
 },
 {
     "jobId":"C71CD1954BA149BCAF42B25F775EA7YH",
     "positionName":"Coffee Barista",
     "companyName":"Manifesto Coffee and Restaurant",
-    "durationDay":0,
+    "durationDay":10,
     "durationDayText":"Be the first who applies !",
-    "imageUrl":"https://dummyimage.com/50x50/6e5889/fff",
-    "distance":"8,53 km yakınında",
+    "imageUrl":"https://dummyimage.com/100x100/6e5889/fff",
+    "distance":"8,57 km yakınında",
     "latitude":41.050968170166023,
     "longitude":29.062856674194339,
     "cityName":"Bursa",
@@ -60,9 +60,9 @@ const json = {
     "positionName":"Cat Whisperer",
     "companyName":"Discovery Channel",
     "durationDay":0,
-    "durationDayText":"hey",
-    "imageUrl":"https://dummyimage.com/50x50/0f5889/fff",
-    "distance":"8,53 km yakınında",
+    "durationDayText":"Come and play",
+    "imageUrl":"https://dummyimage.com/100x100/0f5889/fff",
+    "distance":"8,13 km yakınında",
     "latitude":41.050968170166023,
     "longitude":29.062856674194339,
     "cityName":"İstanbul",
@@ -74,8 +74,8 @@ const json = {
     "companyName":"Kariyer.net",
     "durationDay":0,
     "durationDayText":"Taze çıktı!",
-    "imageUrl":"https://dummyimage.com/50x50/0e5689/fff",
-    "distance":"8,53 km yakınında",
+    "imageUrl":"https://dummyimage.com/100x100/0e5689/fff",
+    "distance":"9,53 km yakınında",
     "latitude":41.050968170166023,
     "longitude":29.062856674194339,
     "cityName":"Manisa",
@@ -90,18 +90,18 @@ const getJobDetailRespJson = {
             "version":"1.0",
             "statusCode":200,
             "result":{
-               "jobId":"C71CD1954BA149BCAF42B25F775EA4FB",
-               "positionName":"Test Engineer",
-               "companyName":"Compact Company",
-               "durationDay":0,
-               "durationDayText":"Newly arrived!",
-               "imageUrl":"https://dummyimage.com/50x50/0e5870/fff",
-               "countryCode":"TR",
-               "countryName":"Turkey",
-               "latitude":41.050968170166023,
-             "longitude":29.062856674194339,
-             "cityName":"İstanbul",
-             "townName":"Çengelköy Mahallesi",
+                "jobId":"C71CD1954BA149BCAF42B25F775EA4FB",
+                "positionName":"Test Engineer",
+                "companyName":"Compact Company",
+                "durationDay":6,
+                "durationDayText":"Newly arrived!",
+                "imageUrl":"https://dummyimage.com/100x100/0e5870/fff",
+                "latitude":41.050968170166023,
+                "longitude":29.062856674194339,
+                "cityName":"İstanbul",
+                "townName":"Go Mahallesi",
+                "countryCode":"TR",
+               "countryName":"Turkey",               
                "address":"Saray Mahallesi Site Yolu Sokak No:7 34768 Ümraniye/İstanbul Turkey",
                "postalCode":34768,
                "hasLatitude":true,
@@ -120,15 +120,15 @@ const getJobDetailRespJson = {
                 "jobId":"C71CD1954BA149BCAF42B25F775EA4BJ",
                 "positionName":"Call Center",
                 "companyName":"Meric saksı boyamacılık a.ş.",
-                "durationDay":22,
-                "durationDayText":'',
-                "imageUrl":"https://dummyimage.com/50x50/0e5881/fff",
-                "countryCode":"TR",
+                "durationDay":17,
+                "durationDayText":"",
+                "imageUrl":"https://dummyimage.com/100x100/0e5881/fff",
+                "latitude":41.050968170166023,
+                "longitude":29.062856674194339,
+                "cityName":"Çanakkale",
+                "townName":"Gökçeada",
+               "countryCode":"TR",
                "countryName":"Turkey",
-               "latitude":41.050968170166023,
-               "longitude":29.062856674194339,
-               "cityName":"Çanakkale",
-               "townName":"Gökçeada",
                "address":"Saray Mahallesi Site Yolu Sokak No:7 34768 Ümraniye/İstanbul Turkey",
                "postalCode":34768,
                "hasLatitude":true,
@@ -147,14 +147,15 @@ const getJobDetailRespJson = {
                 "jobId":"C71CD1954BA149BCAF42B25F775EA4GS",
                 "positionName":"Cookie Chef",
                 "companyName":"Kukis Patiserrie",
-                "durationDay":22,
+                "durationDay":2,
                 "durationDayText":"",
-                "imageUrl":"https://dummyimage.com/50x50/0e5890/fff",
+                "imageUrl":"https://dummyimage.com/100x100/0e5890/fff",
+                "distance":"3,53 km yakınında",
                 "latitude":41.050968170166023,
                 "longitude":29.062856674194339,
                 "cityName":"Bartın",
-                "townName":"Çengelköy Mahallesi",
-                "countryCode":"TR",
+                "townName":"Kedi Mahallesi",
+                 "countryCode":"TR",
                "countryName":"Turkey",
                "address":"Saray Mahallesi Site Yolu Sokak No:7 34768 Ümraniye/İstanbul Turkey",
                "postalCode":34768,
@@ -174,9 +175,9 @@ const getJobDetailRespJson = {
                 "jobId":"C71CD1954BA149BCAF42B25F775EA7YH",
                 "positionName":"Coffee Barista",
                 "companyName":"Manifesto Coffee and Restaurant",
-                "durationDay":0,
+                "durationDay":10,
                 "durationDayText":"Be the first who applies !",
-                "imageUrl":"https://dummyimage.com/50x50/6e5889/fff",
+                "imageUrl":"https://dummyimage.com/100x100/6e5889/fff",
                 "latitude":41.050968170166023,
                 "longitude":29.062856674194339,
                 "cityName":"Bursa",
@@ -202,8 +203,8 @@ const getJobDetailRespJson = {
                 "positionName":"Cat Whisperer",
                 "companyName":"Discovery Channel",
                 "durationDay":0,
-                "durationDayText":"",
-                "imageUrl":"https://dummyimage.com/50x50/0f5889/fff",
+                "durationDayText":"Come and play",
+                "imageUrl":"https://dummyimage.com/100x100/0f5889/fff",
                 "latitude":41.050968170166023,
                 "longitude":29.062856674194339,
                 "cityName":"İstanbul",
@@ -230,7 +231,7 @@ const getJobDetailRespJson = {
                 "companyName":"Kariyer.net",
                 "durationDay":0,
                 "durationDayText":"Taze çıktı!",
-                "imageUrl":"https://dummyimage.com/50x50/0e5689/fff",
+                "imageUrl":"https://dummyimage.com/100x100/0e5689/fff",
                 "latitude":41.050968170166023,
                 "longitude":29.062856674194339,
                 "cityName":"Manisa",
@@ -254,21 +255,20 @@ const getJobDetailRespJson = {
 export default class JobResource {
 
 getList(){
- var getListResponse = new GetListResponse();
- getListResponse = JSON.parse(JSON.stringify(json));
- return getListResponse.result.items;
+    var getListResponse = new GetListResponse();
+    getListResponse = JSON.parse(JSON.stringify(getListResponseJson));
+    return getListResponse.result.items;
 }
 
 getDetail(jobId){
     var getDetailResponseList = JSON.parse(JSON.stringify(getJobDetailRespJson));
-    console.log(getDetailResponseList);
- return getDetailResponseList.list.filter((resp)=>
- resp.result.jobId === jobId)[0];
+    return getDetailResponseList.list.filter((resp)=>
+    resp.result.jobId === jobId)[0];
 }
 
-findByKey(searchKey, list){
-  return list?list.filter(obj =>  Object.keys(obj).some((key) => {
-        return obj[key] ? obj[key].toString().toLowerCase().includes(searchKey) : ''
+findByKey(searchKey, list) { 
+  return list ? list.filter( item => Object.keys(item).some((key) => {
+        return item[key] ? item[key].toString().toLowerCase().includes(searchKey) : ''
     })):[];
 }
 
