@@ -58,10 +58,6 @@ export default {
     .position-name {
       font-weight: bolder;
       height: 3rem;
-      overflow: hidden;
-      text-overflow: ellipsis;
-      white-space: nowrap;
-      -webkit-line-clamp: 2;
     }
     .company-name{
       font-size:.8rem;
